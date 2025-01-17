@@ -21,6 +21,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("entered the data ingestion method")
         try:
+            #we can change this line to read data from databases,APIs or anywhere
             df = pd.read_csv(r'C:\Users\isha\Downloads\mlproject\notebook\data\stud.csv')
             logging.info("Read the dataframe")
             
